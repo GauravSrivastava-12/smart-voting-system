@@ -1,17 +1,17 @@
-# Smart Voting System
+# Face Recognition Voting System
 
-A simple Django project for student voting and election management. It allows voter registration, candidate management, election setup, and voting with a face-image check for student verification.
+A simple Django-based voting system for student elections with face-recognition-based verification. It supports voter registration, candidate management, election voting, and secure verification using face images.
 
-> Important: This project is a demo and is not ready for a real public election. It contains sample data and legacy code, so do not expose it to the internet without a proper security review.
+> Important: This project is a demo and is not intended for a real public election without proper security review and deployment hardening.
 
 ## Features
 
 - Student voter registration
-- Candidate listing and election management
-- Voting flow
+- Candidate and election management
+- Voting process
 - Face-image verification support
 - MySQL/MariaDB database integration
-- Email OTP setup for verification
+- Email OTP support
 
 ## Requirements
 
@@ -56,7 +56,7 @@ Important settings include:
 - `MYSQL_PASSWORD`
 - `MYSQL_NAME`
 - `DJANGO_SECRET_KEY`
-- Email settings like `EMAIL_HOST`, `EMAIL_PORT`, `EMAIL_HOST_USER`, and `EMAIL_HOST_PASSWORD`
+- Email values like `EMAIL_HOST`, `EMAIL_PORT`, `EMAIL_HOST_USER`, and `EMAIL_HOST_PASSWORD`
 
 Generate a secure secret key:
 
@@ -157,4 +157,4 @@ This repository intentionally excludes some local database dumps and image asset
 
 ## License
 
-This project is provided for educational/demo use. Please check the repository for the exact licensing information if you plan to reuse or distribute it.
+This project is provided for educational/demo use. Please check the repository for the exact licensing details if you plan to reuse or distribute it.
