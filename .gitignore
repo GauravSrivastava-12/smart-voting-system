@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+OnlineVoting/db.sqlite3
+OnlineVoting/media/
+OnlineVoting/images/
+OnlineVoting/static/image/
+online_voting.sql
